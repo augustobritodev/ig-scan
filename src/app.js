@@ -2,8 +2,8 @@ const puppeteer = require('puppeteer');
 const readline = require('readline');
 
 // Download
-import axios from 'axios';
-import fs from 'fs';
+const axios = require('axios');
+const fs = require('fs');
 
 const IG_URL = 'https://www.instagram.com';
 const IG_LOAD_MORE_CLASS = '.dCJp8';
